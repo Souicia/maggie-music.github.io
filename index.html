@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maggie Musique Française</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    html, * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    main {
+      width: 75%;
+    }
+
+    h1 {
+      font-size: 24px;
+      color:rgb(0, 221, 255);
+      text-align: center;
+      margin: 15px 0 15px 0;
+    }
+
+    .music-video {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .music-video video {
+      width: 100%;
+    }
+
+    .lyrics {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 10px;
+      color:rgb(0, 221, 255);
+    }
+
+    .french p,
+    .english p {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 1250px) {
+      .lyrics {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .french p,
+      .english p {
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
+      body {
+        padding: 0 20px 0 20px;
+      }
+      main {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Bienvue Maggie, to your own music website!</h1>
+    <section class="music-video">
+      <video controls>
+        <source src="/La Reine des Neiges - Libérée, délivrée.mp4">
+      </video>
+    </section>
+    <section class="lyrics">
+      <div class="french">
+        <h3 class="music-title">La Reine des Neiges - Libérée, délivrée</h3>
+        <p>L'hiver s'installe doucement dans la nuit<br />
+          La neige est reine à son tour<br />
+          Un royaume de solitude<br />
+          Ma place est là pour toujours</p>
+          
+          <p>Le vent qui hurle en moi ne pense plus à demain<br />
+          Il est bien trop fort<br />
+          J'ai lutté, en vain</p>
+          
+          <p>Cache tes pouvoirs, n'en parle pas<br />
+          Fais attention, le secret survivra<br />
+          Pas d'états d'âme, pas de tourments<br />
+          De sentiments</p>
+          
+          <p>Libérée, Délivrée<br />
+          Je ne mentirai plus jamais</p>
+
+          <p>Libérée, Délivrée<br />
+          C'est décidé, je m'en vais<br />
+          J'ai laissé mon enfance en été<br />
+          Perdue dans l'hiver<br />
+          Le froid est pour moi le prix de la liberté.</p>
+          
+          <p>Quand on prend de la hauteur<br />
+          Tout semble insignifiant<br />
+          La tristesse, l'angoisse et la peur<br />
+          M'ont quittée depuis longtemps</p>
+          
+          <p>Je veux voir ce que je peux faire<br />
+          De cette magie pleine de mystères<br />
+          Le bien, le mal, je dis tant pis, tant pis</p>
+          
+          <p>Libérée, Délivrée<br />
+          Les étoiles me tendent les bras<br />
+          Libérée, Délivrée</p>
+
+          <p>Non, je ne pleure pas<br />
+          Me voilà !<br />
+          Oui, je suis là !<br />
+          Perdue dans l'hiver</p>
+          
+          <p>Mon pouvoir vient du ciel et envahit l'espace<br />
+          Mon âme s'exprime en dessinant et sculptant dans la glace<br />
+          Et mes pensées sont des fleurs de cristal gelées.</p>
+          
+          <p>Non je ne reviendrai pas<br />
+          Le passé est passé !</p>
+          
+          <p>Libérée, Délivrée<br />
+          Désormais plus rien ne m'arrête<br />
+          Libérée, Délivrée<br />
+          Plus de princesse parfaite<br />
+          Je suis là !<br />
+          Comme je l'ai rêvé !<br />
+          Perdue dans l'hiver</p>
+          
+          <p>Le froid est pour moi le prix de la liberté.</p>
+      </div>
+      <div class="english">
+        <h3>The Ice Queen - Liberated, Delivered</h3>
+        <p>Winter moves in slowly in the night<br />
+        The snow is queen in its right<br />
+        A kingdom of solitude<br />
+        My place is here forever</p>
+
+        <p>The wind that screams in me doesn't think about tomorrow<br />
+        It is far too strong<br />
+        I've struggled, in vain</p>
+
+        <p>Hide your powers, don't speak of them<br />
+        Pay attention, the secret will survive<br />
+        No misgivings, no torments<br />
+        Of feelings!</p>
+
+        <p>Liberated, delivered<br />
+        I will never lie again</p>
+
+        <p>Liberated, delivered<br />
+        It's decided, I'm leaving<br />
+        I left my childhood in summer<br />
+        Lost in winter<br />
+        The cold is my price for freedom</p>
+
+        <p>When you take the high ground<br />
+        Everything seems insignificant<br />
+        Sadness, anguish, and fear<br />
+        Left me a long time ago</p>
+
+        <p>I want to see what I can do<br />
+        With this magic full of mysteries<br />
+        Good or bad, I say never mind, never mind !</p>
+
+        <p>Liberated, delivered<br />
+        The stars fill up my arms<br />
+        Liberated, delivered</p>
+
+        <p>No, I don't cry<br />
+        Here I am,<br />
+        Yes, here I am<br />
+        Lost in winter</p>
+
+        <p>My power comes from the sky and overwhelms the space<br />
+        My soul expresses itself in drawing and sculpting in the ice<br />
+        And my thoughts are flowers made of frozen crystals</p>
+
+        <p>I will not return<br />
+        The past is past !</p>
+
+        <p>Liberated, delivered<br />
+        From now on nothing is stopping me<br />
+        Liberated, delivered<br />
+        No more perfect princess</p>
+
+        <p>I am here, <br />
+        Like I had dreamt<br />
+        Lost in winter</p>
+
+        <p>The cold is my price for freedom</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
